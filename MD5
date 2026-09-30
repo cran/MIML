@@ -1,0 +1,16 @@
+eea9028fd709eb02aa96d634a47e9efb *DESCRIPTION
+d3478bfffe645d80810060c19e6428a8 *NAMESPACE
+2de464c0cb88d4f277255df25a46a290 *NEWS.md
+b487c343b52cb87653d09bc67fc89582 *R/MIML-package.R
+ae790efd485e227282eb349aac1dcd42 *R/data.R
+85b5036b0da4a5f155540a91c16f5556 *R/miml.R
+6af8e7644a2c366a25339b1923c9a048 *build/partial.rdb
+12e15d087dce177c93dad3a240422bd4 *data/MFS_data.rda
+765ab58cb9c00b49247e8f5216a985cd *data/RFS_data.rda
+b3e9b5a616464a629da1305e97a60513 *man/MFS_data.Rd
+f32f1406d8d49931bee293ffef9cd970 *man/MIML-package.Rd
+711fc2fbb4176490adee26be135abf17 *man/RFS_data.Rd
+1b2e1c57910ea4748239c8ae57bbbffc *man/miml_mfs.Rd
+866cd3355d43e8b99cf9786e81c700c3 *man/miml_rfs.Rd
+d3a47ddcb48fd9136ddb5c8073a52fad *tests/testthat.R
+d90bfb0d8add39e119bb8f8f109b42ec *tests/testthat/test-miml.R

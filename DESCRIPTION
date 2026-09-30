@@ -1,0 +1,41 @@
+Package: MIML
+Type: Package
+Title: Machine Learning Imputation, Clustering and Survival Analysis
+        for Longitudinal Proteomic Data
+Version: 0.1.0
+Authors@R: c(
+    person("Neelesh", "Kumar", email = "neelesh2302@gmail.com",
+           role = c("aut", "cre")),
+    person("Atanu", "Bhattacharjee", role = "aut"),
+    person(c("Gajendra", "K."), "Vishwakarma", role = "aut"),
+    person("Tanmoy", "Majumdar", role = "aut"))
+Description: Imputes missing biomarker measurements in a wide longitudinal
+    serum panel with gradient-boosted decision trees, groups the completed
+    panel by Bayesian consensus clustering, and compares the resulting patient
+    subgroups by Kaplan-Meier, log-rank and Cox analysis. The imputation
+    learner is described in Ke et al. (2017)
+    <https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree>
+    and the clustering method in Lock and Dunson (2013)
+    <doi:10.1093/bioinformatics/btt425>. Imputed values are conditional-mean
+    predictions, so the procedure is a machine-learning single imputation; the
+    completions carry no between-imputation variance and must not be pooled by
+    Rubin's rules. Two panels from Gene Expression Omnibus accession
+    'GSE65622' are included, one for each survival endpoint.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: lightgbm (>= 3.3.0), data.table, survival, stats, utils
+Suggests: BCClong, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+LazyDataCompression: xz
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-09-21 12:50:13 UTC; DELL
+Author: Neelesh Kumar [aut, cre],
+  Atanu Bhattacharjee [aut],
+  Gajendra K. Vishwakarma [aut],
+  Tanmoy Majumdar [aut]
+Maintainer: Neelesh Kumar <neelesh2302@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-30 10:10:02 UTC
